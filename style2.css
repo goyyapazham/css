@@ -1,0 +1,38 @@
+/* forgot to add second style file!! */
+
+body {
+    font-family: georgia;
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    padding: 25%;
+}
+
+h1 {
+    font-size: 40px;
+    color: steelblue;
+}
+
+h2 {
+    font-size: 30px;
+    color: forestgreen;
+}
+
+h3 {
+    font-size: 20px;
+    color: tomato;
+}
+
+a {
+    text-decoration: none;
+    padding: 3px;
+    -webkit-transition: .4s;
+}
+
+li {
+    padding:5px;
+}
+
+a:hover {
+    border-bottom: 1px solid white;
+}
