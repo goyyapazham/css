@@ -1,38 +1,82 @@
-/* forgot to add second style file!! */
-
 body {
-    font-family: georgia;
-    font-size: 15px;
-    color: white;
-    background-color: black;
-    padding: 25%;
+    font-family: andale mono;
+    font-size: 14px;
+    padding: 100px 500px;
+    text-align: center;
+    background: #fff;
 }
 
-h1 {
-    font-size: 40px;
-    color: steelblue;
+::selection {
+    background: #000;
+    color: #fff;
+}
+
+h1#head1 {
+    color: #fff;
+    font-size: 35px;
 }
 
 h2 {
-    font-size: 30px;
-    color: forestgreen;
+    color: #000;
+    font-size: 28px;
 }
 
 h3 {
+    color: #fff;
     font-size: 20px;
-    color: tomato;
 }
 
-a {
+ul {
+    list-style:none;
+    padding: 0; margin: 0;
+}
+
+li a {
+    display: block;
+    background: #fff;
+    border: 3px solid #000;
+    color: #000;
     text-decoration: none;
-    padding: 3px;
-    -webkit-transition: .4s;
 }
 
-li {
-    padding:5px;
+li a:visited {
+    color: #ddd;
 }
 
-a:hover {
-    border-bottom: 1px solid white;
+li#tehlulz a:visited {
+    color: #ddd;
+}
+
+li a:hover, li a:visited:hover {
+    cursor: crosshair;
+    background: #88f;
+    color: #f88;
+}
+
+li#tehlulz a {
+    background: #f88;
+    color: #88f;
+}
+
+li#tehlulz a:hover, li#tehlulz a:visited:hover {
+    cursor: crosshair;
+    background: #88f;
+    color: #f88;
+}
+
+.extreme {
+    padding: 10px;
+    color: #fff;
+    background-color: #000;
+}
+
+.navzone {
+    margin-top: 20px;
+    display: block;
+    padding: 15px;
+    background: #000;
+}
+
+.prose {
+    color: #000;
 }

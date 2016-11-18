@@ -3,24 +3,27 @@ body {
     font-size: 14px;
     padding: 100px 500px;
     text-align: center;
-    background-color: #152614;
-    color: #3C7A89;
+    background: #000;
 }
 
-h1 {
+::selection {
+    background: #fff;
+    color: #000;
+}
+
+h1#head1 {
+    color: #000;
     font-size: 35px;
-    color: #216869;
-    text-shadow: 2px 2px #119822;
 }
 
 h2 {
+    color: #fff;
     font-size: 28px;
-    color: #70A9A1;
 }
 
 h3 {
+    color: #000;
     font-size: 20px;
-    color: #40798C;
 }
 
 ul {
@@ -28,28 +31,52 @@ ul {
     padding: 0; margin: 0;
 }
 
-a {
-    color: #119822;
+li a {
+    display: block;
+    background: #000;
+    border: 3px solid #fff;
+    color: #fff;
     text-decoration: none;
-    letter-spacing: 4px;
-    word-spacing: 8px;
-    -webkit-transition: 0.4s;
 }
 
-a:visited {
-    color: #008148;
+li a:visited {
+    color: #777;
 }
 
-a:hover {
+li#tehlulz a:visited {
+    color: #777;
+}
+
+li a:hover, li a:visited:hover {
     cursor: crosshair;
-    color: #C6C013;
-    letter-spacing:1px;
-    word-spacing:3px;
+    background: #f88;
+    color: #88f;
 }
 
-a:visited:hover {
+li#tehlulz a {
+    background: #88f;
+    color: #f88;
+}
+
+li#tehlulz a:hover, li#tehlulz a:visited:hover {
     cursor: crosshair;
-    color: #C6C013;
-    letter-spacing:1px;
-    word-spacing:3px;
+    background: #f88;
+    color: #88f;
+}
+
+.extreme {
+    padding: 10px;
+    color: #000;
+    background-color: #fff;
+}
+
+.navzone {
+    margin-top: 20px;
+    display: block;
+    padding: 15px;
+    background: #fff;
+}
+
+.prose {
+    color: #fff;
 }
