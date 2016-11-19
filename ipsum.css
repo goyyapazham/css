@@ -1,0 +1,25 @@
+body {
+    padding: 10% 25%;
+    text-align: center;
+    font-family: georgia;
+    background: linear-gradient( #4c70aa, #aa724c ); /* Nala's Cool Thing 2 */
+}
+
+ol, ul {
+    border: 1px solid black;
+    text-align: justify;
+}
+
+ol li, ul li {
+    padding: 10px;
+}
+
+ul li {
+    text-decoration: underline;
+    list-style-type: circle; /* Nala's Cool Thing 3 */
+}
+
+ol li {
+    text-decoration: overline; /* Nala's Cool Thing 1 */
+    list-style-type: cjk-ideographic; /* Nala's Cool Thing 3 */
+}
